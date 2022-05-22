@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  </head>
+
+  <body>
+
+
+<div class="container">
+  <form id ="quiz" name="quiz">
+    <h1>Javascript Quiz</h1>
+    <h2>Test your knowledge in JavaScript</h2>
+    <div id = "submitted">
+      <h4 id = "numCorrect"></h4>
+  </div>
+    <p>1.What is the keyword to declare a function?<br><br></p>
+      <input type="radio" name="Q1" onclick="doSomething()" value="Q11">a. func<br>
+      <input type="radio" name="Q1" onclick="doSomething()"value="Q12">b. f<br>
+      <input type="radio" name="Q1" onclick="doSomething()"value="Q13">c. function<br>
+      <input type="radio" name="Q1" onclick="doSomething()"value="Q14">d. var<br><br>
+
+    <p>2.What brackets do you use for an array?<br><br></p>
+    <input type="radio" name="Q2" onclick="doSomething()"value="Q21">a. {}<br>
+    <input type="radio" name="Q2" onclick="doSomething()"value="Q22">b. []<br>
+    <input type="radio" name="Q2" onclick="doSomething()"value="Q23">c. ()<br><br>
+
+    <p>3.What symbol ends every line in JavaScript?<br><br></p>
+    <input type="radio" name="Q3" onclick="doSomething()"value="Q31">a. /<br>
+    <input type="radio" name="Q3" onclick="doSomething()"value="Q32">b. ;<br>
+    <input type="radio" name="Q3" onclick="doSomething()"value="Q33">c. :<br>
+    <input type="radio" name="Q3" onclick="doSomething()"value="Q34">d. !<br><br>
+
+    <p>4.What is the keyword to create a new variable?<br><br></p>
+    <input type="radio" name="Q4" onclick="doSomething()"value="Q41">a. variable<br>
+    <input type="radio" name="Q4" onclick="doSomething()"value="Q42">b. v<br>
+    <input type="radio" name="Q4" onclick="doSomething()"value="Q43">c. var<br>
+    <input type="radio" name="Q4" onclick="doSomething()"value="Q44">d. newVar<br><br>
+
+    <p>5.What is the strict equality operator?<br><br></p>
+    <input type="radio" name="Q5" onclick="doSomething()"value="Q51">a. =<br>
+    <input type="radio" name="Q5" onclick="doSomething()"value="Q52">b. ==<br>
+    <input type="radio" name="Q5" onclick="doSomething()"value="Q53">c. ===<br><br>
+
+    <div id = "newScore">
+    <h3 id = "finished"></h3>
+  </div><br>
+
+    <div id = "finalScore">
+      <h5 id = "highScore"></h5>
+
+      <p1 id = "storedScore"></p1>
+      <p1 id = "qCount"></p1>
+      <p1 id = "user"></p1>
+
+    </div>
+      <button id="button" type="button"  onclick = validateForm();>Submit Answers</button>
+    </form>
+
+  </div>
+
+</html>
